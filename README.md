@@ -1,5 +1,5 @@
 # BideshBeacon-Map-For-NewComers
-BideshBeacon makes internationals feel at home, being a newcomer centered map application that highlights important locations and resources in different cities. Using the OSM Database API it provides key location info while using GTK for the GUI, made in C++.
+BideshBeacon makes South Asian internationals feel at home, being a newcomer centered map application that highlights important locations and resources in different cities. Using the OSM Database API it provides key location info while using GTK for the GUI, made in C++.
 
 Users can type locations they're looking for in the search bar, with a drop down menu of cities and points of interests to choose from. The icons transcend language barriers, allowing for universally understood signals. This map offers curated Point of Interest layers, with directions and support in multiple languages.
 
