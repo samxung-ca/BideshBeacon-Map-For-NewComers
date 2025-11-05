@@ -1,0 +1,103 @@
+
+checkbutton {
+    background-color: rgb(63, 63, 63); 
+}
+
+check {
+    border: 1px solid  rgb(106, 106, 109);
+    background-color: rgb(63, 63, 63); 
+}
+
+check:checked{
+    border: 1px solid  rgb(106, 106, 109);
+    background-color: rgb(63, 63, 63); 
+}
+
+scrollbar button, scrollbar {
+    background-color: rgb(63, 63, 63); 
+}
+
+scrollbar slider, scrollbar slider box, scrollbar box{
+    border: 1px solid  rgb(106, 106, 109);
+    background-color: rgba(63, 63, 63, 0.97); 
+}
+
+.bg-button{
+    border: 1px solid  rgb(106, 106, 109);
+    background-color: rgba(63, 63, 63, 0.97); 
+}
+
+.borderbutton, .borderbutton:hover {
+    border: 1px solid  rgb(106, 106, 109);
+}
+
+button {
+    background-color: rgba(63, 63, 63, 0.97); 
+}
+
+button:hover {
+    background-color: rgba(63, 63, 63, 0.97); 
+} 
+
+toolbar {
+    background-color: rgba(63, 63, 63, 0.97); 
+    border-right: 2px solid rgb(106, 106, 109);
+}
+
+.search{
+    border: 1px solid  rgb(106, 106, 109);
+    background-color: rgba(63, 63, 63, 0.97); 
+}
+
+entry, entry:hover, entry:active, entry:disabled {
+    border: 1px solid  rgb(106, 106, 109);
+    background-color: rgba(63, 63, 63, 0.97); 
+    color: #bbbbbd;
+}
+
+.zoom, .zoom:hover {
+    background-color: rgba(63, 63, 63, 0.95);
+}
+
+tooltip.background { 
+    border: 0.5px solid  rgb(106, 106, 109);
+    background-color: rgba(63, 63, 63, 0.97); 
+}
+
+tooltip * { 
+    color: white; 
+}
+
+.combo, .combo:active {
+    border: 1px solid  rgb(106, 106, 109);
+    background-color: rgba(63, 63, 63, 0.97); 
+}
+
+.combo:hover {
+    background-color: rgba(63, 63, 63, 0.97); 
+}
+
+button.combo, button.combo:hover {
+    color: #bbbbbd;
+}
+
+
+.popup, .popup:hover, menu, menu:hover, .menu, .menu:hover{
+    border: 1.2px solid  rgb(106, 106, 109);
+    background-color: rgba(63, 63, 63, 0.97); 
+    color: #bbbbbd;
+}
+
+label {
+    color: white;
+    background-color: transparent; 
+}
+
+statusbar {
+    background-color: rgba(63, 63, 63, 0.97); 
+}
+
+menuitem {
+    color: white;
+}
+

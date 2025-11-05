@@ -1,0 +1,216 @@
+checkbutton {
+    color: rgb(87, 87, 87);
+    background-image: none;
+    background-color: white;
+    font-size: 13px;
+}
+
+check {
+    border-radius: 4px;
+    background-color: white;
+    background-image: none;
+    -gtk-icon-source: none;
+    margin-right: 5px;
+    border: 1px solid rgb(205, 205, 207);
+}
+
+check:checked{
+    border-radius: 4px;
+    background-color: rgb(205, 205, 207);
+    background-image: none;
+    -gtk-icon-source: url("../resources/icons/check.png");
+    margin-right: 5px;
+    border: 1px solid rgb(205, 205, 207);
+}
+
+* { 
+    padding: 0; 
+    border: none;
+    margin: 0;
+    background-image: none;
+    -gtk-icon-effect: none;
+}
+
+.sub {
+    margin-left: 20px;
+}
+
+scrollbar button, scrollbar {
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+
+scrollbar slider, scrollbar slider box, scrollbar box{
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid rgb(205, 205, 207);
+}
+
+.bg-button{
+    border-radius: 10px;
+    border: 1px solid rgb(205, 205, 207);
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.97); 
+}
+
+.borderbutton, .borderbutton:hover {
+    border: 1px solid rgb(205, 205, 207);
+    border-radius: 15px;
+}
+
+button {
+    background-image: none;
+    background-color: #ffffff; 
+    border-radius: 7px;
+    border: none;
+    color: #bbbbbd;
+    font-size: 11px;
+    margin: 8px 4px 8px 4px;
+    padding: 5px 15px 5px 15px;
+}
+
+button:hover {
+    background-image: none;
+    background-color: #ffffff; 
+    color: rgb(142, 119, 206);
+    font-size: 11px;
+    margin: 8px 4px 8px 4px;
+    border: none;
+    -gtk-icon-shadow: 0px 2px rgba(0, 0, 0, 0.1);
+    padding: 5px 15px 5px 15px;
+} 
+
+toolbar {
+    background-color: rgba(255, 255, 255, 1); 
+    border-right: 2px solid rgb(205, 205, 207);
+}
+
+.search{
+    background-image: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.97); 
+    border: 1px solid rgb(205, 205, 207);
+    color: #bbbbbd;
+    padding: 7px 20px 7px 20px;
+    font-size: 13px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+entry, entry:hover, entry:active, entry:disabled {
+    background-image: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.97); 
+    border: 1px solid rgb(205, 205, 207);
+    color: black;
+    padding: 5px 15px 5px 15px;
+    font-size: 13px;
+    box-shadow: none;
+}
+
+entry selection, menuitem:hover { 
+    background-color: rgb(193, 170, 255); 
+    color: white;
+    border-radius: 3px;
+}
+
+arrow:hover { 
+    background-color: rgb(193, 170, 255); 
+}
+
+.zoom, .zoom:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    -gtk-icon-shadow: none;
+}
+
+tooltip.background { 
+    background-color: rgba(255, 255, 255, 0.97); 
+    border: 0.5px solid rgb(205, 205, 207);
+    border-radius: 7px; 
+}
+
+tooltip decoration { 
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 7px; 
+}
+
+tooltip * { 
+    color: #9c9c9e; 
+    font-size: 9px;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.text{
+    font-size: 12px;
+}
+
+.message{
+    font-size: 12px;
+    color: #bbbbbd;
+}
+
+.combo, .combo:active {
+    border-radius: 20px;
+    border: 1px solid rgb(205, 205, 207); 
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+}
+
+.combo:hover {
+    border-radius: 20px;
+    border: 1.2px solid rgb(193, 170, 255);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+}
+
+button.combo, button.combo:hover {
+    color: rgb(87, 87, 87);
+    padding: 5px 15px 5px 15px;
+}
+
+box.linked {
+    background-color: transparent;
+    border-radius: 7px;
+}
+
+.popup, .popup:hover, menu, menu:hover, .menu, .menu:hover{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.97);
+    border: 1.2px solid rgb(205, 205, 207);
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+}
+
+menuitem {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:rgb(87, 87, 87);
+}
+
+label {
+    color: rgb(87, 87, 87);
+}
+
+statusbar {
+    background-color: rgba(255, 255, 255, 0.97);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.directions {
+    padding-right: 10px;
+    -gtk-icon-shadow: none;
+}
+
+.navigation {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
