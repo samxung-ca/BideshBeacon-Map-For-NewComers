@@ -3,6 +3,7 @@ BideshBeacon makes internationals feel at home, being a newcomer centered map ap
 
 Users can type locations they're looking for in the search bar, with a drop down menu of cities and points of interests to choose from. The icons transcend language barriers, allowing for universally understood signals. This map offers curated Point of Interest layers, with directions and support in multiple languages.
 
+Note: This project was made for coursework, hence much of the source code is not made public.
 
 https://github.com/user-attachments/assets/90d40ba8-f433-43ce-8a09-77a5d25e8bed
 
